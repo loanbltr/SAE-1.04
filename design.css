@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+    box-sizing: border-box;
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(64, 63, 63); /* faut ajouter transparence */
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    font-size: 15px;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+.info{
+    background-color: rgb(159, 151, 151);
+}
+
+.formation{
+    width: 50%;
+    background-color: purple;
+}
+
+p{
+    color: green;
+}
+
+.exit footer{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.lieu{
+    display: flex;
+    align-self: flex-end;
+}
