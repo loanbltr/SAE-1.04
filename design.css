@@ -1,4 +1,10 @@
+*{
+    text-decoration: none;
+}
+
 body{
+    padding: 0;
+    margin: 0;
     background-color: white;
     box-sizing: border-box;
     font-family: 'Lucida Console', Monaco, monospace;
@@ -22,14 +28,60 @@ nav a:hover{
     font-weight: bold;
 }
 
-.info{
-    background-color: rgb(159, 151, 151);
+.debut{
+    width: 50%;
+    height: 20 px;
 }
 
-.formation{
-    width: 50%;
-    background-color: purple;
+.info{
+    background-color: rgb(159, 151, 151);
+    display: flex;
+    flex-direction: column;
 }
+
+.info:nth-child(1){
+    align-items: center;
+}
+.item-1 {
+    background-color: #3498BD;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    text-align: center;
+    margin: 5%;
+    display: grid;
+    border-radius: 5px;
+    
+
+}
+
+.item-2 {
+    background-color: red;
+    border-bottom: 5px solid rgb(165, 5, 5);
+    text-shadow: 0px -2px rgb(165, 5, 5);
+    text-align: center;
+    margin: 5%;
+    display: grid;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.item-3 {
+    background-color: green;
+    border-bottom: 5px solid rgb(3, 74, 3);
+    text-shadow: 0px -2px rgb(3, 74, 3);
+    text-align: center;
+    margin: 5%;
+    display: grid;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.item:active{
+    transform: translate(0, 5px);
+    -webkit-transform: translate(0, 5px);
+    border-bottom: 1px solid;
+}
+
 
 p{
     color: green;
@@ -39,9 +91,7 @@ p{
     background-color: gray;
     display: flex;
     flex-direction: column;
-}
-
-.lieu{
-    display: flex;
-    align-self: flex-end;
+    
+    justify-content: space-around;
+    align-items: center;
 }
