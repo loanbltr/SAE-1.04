@@ -33,6 +33,16 @@ nav a:hover{
     height: 20 px;
 }
 
+.image{
+    height: 200px;
+    background-image: url(./fond.jpg);
+    background-repeat: no-repeat;
+}
+
+.image .debut{
+    height: 100%;
+}
+
 .info{
     background-color: rgb(159, 151, 151);
     display: flex;
@@ -42,6 +52,7 @@ nav a:hover{
 .info:nth-child(1){
     align-items: center;
 }
+
 .item-1 {
     background-color: #3498BD;
     border-bottom: 5px solid #2980B9;
@@ -50,6 +61,7 @@ nav a:hover{
     margin: 5%;
     display: grid;
     border-radius: 5px;
+    width: 500%;
 
 }
 
@@ -61,7 +73,6 @@ nav a:hover{
     margin: 5%;
     display: grid;
     border-radius: 5px;
-    width: 30%;
 }
 
 .item-3 {
@@ -72,7 +83,6 @@ nav a:hover{
     margin: 5%;
     display: grid;
     border-radius: 5px;
-    width: 30%;
 }
 
 .item:active{
