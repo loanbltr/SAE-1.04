@@ -37,6 +37,7 @@ nav a:hover{
     height: 200px;
     background-image: url(./fond.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .image .debut{
