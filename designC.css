@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url(savoir.jpg);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -30,7 +30,7 @@ nav a:hover{
 }
 
 .Bafa{
-    background-color: white;
+    background-color: aqua;
     border: 1px solid #000000;
     display: block;
     border-radius: 50%;
