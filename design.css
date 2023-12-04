@@ -570,6 +570,151 @@ nav a:hover {
   opacity: 1; /* Rend le texte alternatif visible lors du survol de la sphère */
 }
 
+.titleMoi{
+  text-align: center;
+  color: black;
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: purple;
+  width: 95%;
+  margin: 10px auto;
+  margin-top: 20px;
+}
+
+.presentationMoi{
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: black;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  margin-top: 5%;
+}
+
+.presentationMoi img{
+  display: inline-block;
+  transform: scaleX(-1);
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10%;
+  padding-left: 10%;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.presentationMoi p{
+  color: white;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 10%;
+}
+
+.presentationHorreur{
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: auto;
+  width: 95%;
+  display: flex;
+  margin-top: 5%;
+  height: 50px;
+}
+
+.presentationHorreur img{
+  display: inline-block;
+  height: 100%;
+  
+}
+
+.presentationHorreur p{
+  color: black;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding: 1%;
+}
+
+.volley{
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  margin-top: 5%;
+  height: 500px;
+}
+
+.volley img{
+  display: inline-block;
+  width: 100%;
+  margin: 1%;
+}
+
+.volley p{
+  color: black;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 10%;
+}
+
+.presentationGames{
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: auto;
+  width: 95%;
+  display: flex;
+  margin-top: 5%;
+  height: 50px;
+}
+
+.presentationGames img{
+  display: inline-block;
+  height: 100%;
+  
+}
+
+.presentationGames p{
+  color: black;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding: 1%;
+}
+
+.projets{
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  margin-top: 5%;
+  height: 500px;
+}
+
+.projets img{
+  display: inline-block;
+  width: 100%;
+  margin: 1%;
+}
+
+.projets p{
+  color: black;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 10%;
+}
+
 footer p {
   color: green;
 }
