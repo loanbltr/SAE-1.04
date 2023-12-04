@@ -29,95 +29,174 @@ nav a:hover{
     font-weight: bold;
 }
 
-.Bafa{
-    background-color: aqua;
-    border: 1px solid #000000;
-    display: block;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    margin: 0;
-    text-align: center;
-    transition: transform 0.3s, border-width 0.3s;
+.sphere-container {
     position: relative;
-    overflow: hidden;
-    left: 40.75%;
-    margin-top: 10px;
-}
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+  }
 
-.Bafa p{
-    margin-top: 45%;
-}
+.bafa {
+    width: 100%;
+    height: 100%;
+    background-color: #3498db; /* Couleur de fond de la sphère */
+    border-radius: 50%; /* Transforme le carré en sphère */
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+    top: 110%;
+    left: 175%;
+  }
 
-.Bafa:hover {
-  transform: scale(1.2); /* Agrandissement de l'élément */
-  border-width: 5px; /* Épaisseur du bord augmentée */
-  border-image: repeating-linear-gradient(
-    45deg,
-    #000,
-    #000 10px,
-    transparent 10px,
-    transparent 20px)
-}
+.bafa:hover {
+    transform: scale(1.3); /* Agrandissement de la sphère lors du survol */
+  }
 
-.Bac{
-    background-color: white;
-    border: 1px solid #000000;
-    display: block;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    margin: 0;
+.bafa:hover span {
+    opacity: 0; /* Rend le texte initial invisible lors du survol de la sphère */
+  }
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 14px;
+  }
+
+.bafa:hover .info {
+    opacity: 1; /* Rend le texte alternatif visible lors du survol de la sphère */
+  }
+
+
+.infos{
+    font-style: italic;
 }
 
-.Bac p{
-    margin-top: 45%;
+
+
+.bafd {
+    width: 100%;
+    height: 100%;
+    background-color: limegreen; /* Couleur de fond de la sphère */
+    border-radius: 50%; /* Transforme le carré en sphère */
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+    top: 110%;
+    left: 475%;
+  }
+
+.bafd:hover {
+    transform: scale(1.3); /* Agrandissement de la sphère lors du survol */
+  }
+
+.bafd:hover span {
+    opacity: 0; /* Rend le texte initial invisible lors du survol de la sphère */
+  }
+
+.bafd:hover .info {
+    opacity: 1; /* Rend le texte alternatif visible lors du survol de la sphère */
 }
 
-.Bafd{
-    background-color: white;
-    border: 1px solid #000000;
-    display: block;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    margin: 0;
-    text-align: center;
+.bac {
+    width: 100%;
+    height: 100%;
+    background-color: red; /* Couleur de fond de la sphère */
+    border-radius: 50%; /* Transforme le carré en sphère */
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+    left: 325%;
+    top: 30%;
+  }
+
+.bac:hover {
+    transform: scale(1.3); /* Agrandissement de la sphère lors du survol */
+  }
+
+.bac:hover span {
+    opacity: 0; /* Rend le texte initial invisible lors du survol de la sphère */
+  }
+
+.bac:hover .info {
+    opacity: 1; /* Rend le texte alternatif visible lors du survol de la sphère */
 }
 
-.Bafd p{
-    margin-top: 45%;
+.langues {
+    width: 100%;
+    height: 100%;
+    background-color: purple; /* Couleur de fond de la sphère */
+    border-radius: 50%; /* Transforme le carré en sphère */
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+    top: 250%;
+    left: 250%;
+  }
+
+.langues:hover {
+    transform: scale(1.3); /* Agrandissement de la sphère lors du survol */
+  }
+
+.langues:hover span {
+    opacity: 0; /* Rend le texte initial invisible lors du survol de la sphère */
+  }
+
+.langues:hover .info {
+    opacity: 1; /* Rend le texte alternatif visible lors du survol de la sphère */
 }
 
-.Langues{
-    background-color: white;
-    border: 1px solid #000000;
-    display: block;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    margin: 0;
-    text-align: center;
-}
+.snu {
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen; /* Couleur de fond de la sphère */
+    border-radius: 50%; /* Transforme le carré en sphère */
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+    top: 250%;
+    left: 400%;
+  }
 
-.Langues p{
-    margin-top: 45%;
-}
+.snu:hover {
+    transform: scale(1.3); /* Agrandissement de la sphère lors du survol */
+  }
 
-.SNU{
-    background-color: white;
-    border: 1px solid #000000;
-    display: block;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    margin: 0;
-    text-align: center;
-}
+.snu:hover span {
+    opacity: 0; /* Rend le texte initial invisible lors du survol de la sphère */
+  }
 
-.SNU p{
-    margin-top: 45%;
+.snu:hover .info {
+    opacity: 1; /* Rend le texte alternatif visible lors du survol de la sphère */
 }
 
 footer{
@@ -127,6 +206,8 @@ footer{
     
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    bottom: -60px;
   }
 
   

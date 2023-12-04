@@ -50,6 +50,7 @@ nav a:hover{
   .slider-1 .slider {
     animation: slider-1 12s infinite ease-in-out;
     display: flex;
+    
   }
 
   .slider-1 p {
